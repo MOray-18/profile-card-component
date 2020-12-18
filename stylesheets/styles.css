@@ -14,7 +14,12 @@ html {
 
 body {
   background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-bottom.svg),
+    url(../images/bg-pattern-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 650px 300px, -300px -500px;
 }
+
 /* Typography */
 h4 {
   margin-bottom: 0.25rem;
@@ -23,11 +28,12 @@ h4 {
 }
 
 h5 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
 }
 
 span {
@@ -39,19 +45,14 @@ p,
 span {
   color: hsl(227, 10%, 46%);
 }
-/* Body Background */
-body {
-  background-image: url(../images/bg-pattern-top.svg),
-    url(../images/bg-pattern-bottom.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: -350px center, 175% -30%;
-}
+
 /* Card Section */
 .card {
   margin: 0 auto;
   width: 17rem;
   height: 20rem;
   border-radius: 20px;
+  box-shadow: 10px 20px 100px hsl(227, 10%, 46%);
   display: flex;
   flex-direction: column;
   position: absolute;
