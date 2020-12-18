@@ -8,15 +8,34 @@
 
 html {
   font-size: 18px;
+  font-family: "Kumbh Sans";
   text-align: center;
 }
 
+/* Typography */
+h4 {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+span {
+  font-weight: 400;
+}
 /* Card Section */
 .card {
   margin: 0 auto;
   padding: 1rem 1.5rem;
   width: 17rem;
-  height: 12rem;
+  height: 14rem;
   border: 1px solid black;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -29,9 +48,10 @@ html {
   transform: translate(-50%, -50%);
 }
 
+/* Image */
 img {
   box-sizing: content-box;
-  margin: -3.8rem 0 0 0;
+  margin-top: -3.8rem;
   max-width: 96px;
   border: 3.5px solid white;
   border-radius: 50%;
